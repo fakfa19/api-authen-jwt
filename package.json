@@ -1,0 +1,19 @@
+{
+  "name": "api-authen-jwt",
+  "version": "1.0.0",
+  "description": "REST API with JWT authentication using json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "FAKFA CHUCHIT",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19"
+  }
+}
